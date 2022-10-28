@@ -1,1 +1,91 @@
 Reinitialized existing Git repository in /volume1/SOLDERED products/Soldered products/Aktuatori-black/Display OLED I2C Blue 0.96/.git/
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   .gitignore
+	modified:   CAD/Change Log.xlsx
+	modified:   CAD/V1.0.0/0.96_OLED.kicad_pcb
+	modified:   CAD/V1.0.0/0.96_OLED.kicad_pro
+	modified:   CAD/V1.0.0/0.96_OLED.kicad_sch
+	modified:   CAD/V1.1.1/0.96_OLED.kicad_pcb
+	modified:   CAD/V1.1.1/0.96_OLED.kicad_pro
+	modified:   CAD/V1.1.1/0.96_OLED.kicad_sch
+	modified:   CAD/V1.1.1/PANEL/0.96_OLED.kicad_pcb
+	modified:   CAD/V1.1.1/PANEL/0.96_OLED.kicad_pro
+	modified:   CAD/V1.2.2/0.96_OLED.kicad_pcb
+	modified:   CAD/V1.2.2/0.96_OLED.kicad_pro
+	modified:   CAD/V1.2.2/0.96_OLED.kicad_sch
+	modified:   CAD/V1.2.2/PANEL/0.96_OLED.kicad_pcb
+	modified:   CAD/V1.2.2/PANEL/0.96_OLED.kicad_pro
+	modified:   LICENSE.md
+	new file:   OUTPUTS/Compliance/CE.pdf
+	new file:   OUTPUTS/Compliance/Info.txt
+	new file:   OUTPUTS/Compliance/Safety sheet DE.pdf
+	new file:   OUTPUTS/Compliance/Safety sheet EN.pdf
+	new file:   OUTPUTS/Compliance/UKCA.pdf
+	modified:   OUTPUTS/V1.0.0/0-96_OLED_gerber.zip
+	modified:   OUTPUTS/V1.0.0/0.96_OLED_BOM.csv
+	modified:   OUTPUTS/V1.0.0/0.96_OLED_ibom.html
+	modified:   OUTPUTS/V1.1.1/OLED 0.96__ibom.html
+	modified:   OUTPUTS/V1.1.1/OLED_0-96.pdf
+	modified:   OUTPUTS/V1.1.1/OLED_0-96_193X211.2_42.zip
+	modified:   OUTPUTS/V1.1.1/OLED_0-96_3D.step
+	modified:   OUTPUTS/V1.1.1/OLED_0-96_BOM.csv
+	modified:   OUTPUTS/V1.1.1/OLED_0.96_pinout.jpg
+	modified:   OUTPUTS/V1.2.2/OLED 0.96 blue.jpg
+	modified:   OUTPUTS/V1.2.2/OLED 0.96__ibom.html
+	modified:   OUTPUTS/V1.2.2/OLED_0-96.pdf
+	modified:   OUTPUTS/V1.2.2/OLED_0-96_181x193_36.zip
+	modified:   OUTPUTS/V1.2.2/OLED_0-96_3D.step
+	modified:   OUTPUTS/V1.2.2/OLED_0-96_BOM.csv
+	modified:   README.md
+	new file:   log.txt
+
+[main f5a94c2] Updating open source files.
+ 38 files changed, 6 insertions(+)
+ mode change 100644 => 100755 .gitignore
+ mode change 100644 => 100755 CAD/Change Log.xlsx
+ mode change 100644 => 100755 CAD/V1.0.0/0.96_OLED.kicad_pcb
+ mode change 100644 => 100755 CAD/V1.0.0/0.96_OLED.kicad_pro
+ mode change 100644 => 100755 CAD/V1.0.0/0.96_OLED.kicad_sch
+ mode change 100644 => 100755 CAD/V1.1.1/0.96_OLED.kicad_pcb
+ mode change 100644 => 100755 CAD/V1.1.1/0.96_OLED.kicad_pro
+ mode change 100644 => 100755 CAD/V1.1.1/0.96_OLED.kicad_sch
+ mode change 100644 => 100755 CAD/V1.1.1/PANEL/0.96_OLED.kicad_pcb
+ mode change 100644 => 100755 CAD/V1.1.1/PANEL/0.96_OLED.kicad_pro
+ mode change 100644 => 100755 CAD/V1.2.2/0.96_OLED.kicad_pcb
+ mode change 100644 => 100755 CAD/V1.2.2/0.96_OLED.kicad_pro
+ mode change 100644 => 100755 CAD/V1.2.2/0.96_OLED.kicad_sch
+ mode change 100644 => 100755 CAD/V1.2.2/PANEL/0.96_OLED.kicad_pcb
+ mode change 100644 => 100755 CAD/V1.2.2/PANEL/0.96_OLED.kicad_pro
+ mode change 100644 => 100755 LICENSE.md
+ create mode 100755 OUTPUTS/Compliance/CE.pdf
+ create mode 100755 OUTPUTS/Compliance/Info.txt
+ create mode 100755 OUTPUTS/Compliance/Safety sheet DE.pdf
+ create mode 100755 OUTPUTS/Compliance/Safety sheet EN.pdf
+ create mode 100755 OUTPUTS/Compliance/UKCA.pdf
+ mode change 100644 => 100755 OUTPUTS/V1.0.0/0-96_OLED_gerber.zip
+ mode change 100644 => 100755 OUTPUTS/V1.0.0/0.96_OLED_BOM.csv
+ mode change 100644 => 100755 OUTPUTS/V1.0.0/0.96_OLED_ibom.html
+ mode change 100644 => 100755 OUTPUTS/V1.1.1/OLED 0.96__ibom.html
+ mode change 100644 => 100755 OUTPUTS/V1.1.1/OLED_0-96.pdf
+ mode change 100644 => 100755 OUTPUTS/V1.1.1/OLED_0-96_193X211.2_42.zip
+ mode change 100644 => 100755 OUTPUTS/V1.1.1/OLED_0-96_3D.step
+ mode change 100644 => 100755 OUTPUTS/V1.1.1/OLED_0-96_BOM.csv
+ mode change 100644 => 100755 OUTPUTS/V1.1.1/OLED_0.96_pinout.jpg
+ mode change 100644 => 100755 OUTPUTS/V1.2.2/OLED 0.96 blue.jpg
+ mode change 100644 => 100755 OUTPUTS/V1.2.2/OLED 0.96__ibom.html
+ mode change 100644 => 100755 OUTPUTS/V1.2.2/OLED_0-96.pdf
+ mode change 100644 => 100755 OUTPUTS/V1.2.2/OLED_0-96_181x193_36.zip
+ mode change 100644 => 100755 OUTPUTS/V1.2.2/OLED_0-96_3D.step
+ mode change 100644 => 100755 OUTPUTS/V1.2.2/OLED_0-96_BOM.csv
+ mode change 100644 => 100755 README.md
+ create mode 100755 log.txt
+https://github.com/SolderedElectronics/Display-OLED-I2C-Blue-0.96-hardware-design.git
+/volume1/SOLDERED products/Soldered products/Aktuatori-black/Digipot 10k MCP4018 breakout/OUTPUTS/V1.1.1: all files are present, commiting...
+Digipot-10k-MCP4018-breakout-hardware-design is a repo
+Making gh repo
+Setting description
+Adding default .gitignore
+Syncing /volume1/SOLDERED products/Soldered products/Aktuatori-black/Digipot 10k MCP4018 breakout to Digipot-10k-MCP4018-breakout-hardware-design
+Reinitialized existing Git repository in /volume1/SOLDERED products/Soldered products/Aktuatori-black/Display OLED I2C Blue 0.96/.git/
